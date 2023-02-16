@@ -33,3 +33,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+
+@font-face {
+  font-family: "Film P3";
+  src: url();
+  src: url("./fonts/FilmP3Bold.woff2") format("woff2"),
+    url("./fonts/FilmP3Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.logo {
+  font-family: "Film P3";
+  font-size: 20px;
+}
