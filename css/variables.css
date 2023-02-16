@@ -121,6 +121,21 @@ body {
 
 footer {
   background-color: var(--black-footer-color);
+  max-height: 304px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer--container {
+  display: flex;
+  gap: 231px;
+  margin: 0;
+  padding: 80px 186px 80px 216px;
+}
+
+.footer--container__positioned {
+  display: flex;
+  gap: 211px;
 }
 
 .logo {
@@ -129,7 +144,9 @@ footer {
   font-family: "Film P3";
   font-size: 64px;
   font-weight: 700;
+  text-transform: uppercase;
   color: var(--yellow-color);
+  /* padding-right: 231px; */
 }
 
 .footer-nav--list {
@@ -138,13 +155,15 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  text-transform: capitalize;
+
   color: var(--yellow-color);
 }
 
 .network--list {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  justify-items: baseline;
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -155,19 +174,30 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 0.5px solid var(--yellow-color);
+  border-radius: 2px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+}
+
+.network--item:last-child {
+  margin-bottom: 0;
 }
 
 .network--link {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* gap: 17px; */
+  gap: 15px;
+  justify-items: center;
 }
 
-.footer--container {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-around;
-  margin: 0;
-  padding: 0;
+.network--item:first-child {
+  justify-content: flex-end;
+}
+
+.network--item:nth-child(2) {
+  justify-content: flex-end;
+}
+
+.network--item:last-child {
+  justify-content: space-between;
 }
