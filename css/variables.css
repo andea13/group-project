@@ -164,6 +164,11 @@ footer {
   }
 }
 
+.footer--container__positioned {
+  display: flex;
+  margin-left: auto;
+}
+
 @media (min-width: 1024px) {
   .footer--container__positioned {
     display: flex;
@@ -181,18 +186,11 @@ footer {
 .logo {
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 85px;
   font-family: "Film P3";
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--yellow-color);
-}
-
-@media (max-width: 413px) {
-  .logo {
-    margin-right: 50px;
-  }
 }
 
 @media (min-width: 1024px) {
