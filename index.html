@@ -1,124 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/variables.css" />
-  </head>
-  <body>
-    <section class="contacts--section">
-      <div class="main-container">
-        <div class="container--tablet">
-          <h1 hidden>Контакти</h1>
-          <h2 class="contacts--title">MIMIHO</h2>
-          <h3 class="contacts--subtitle">Ресторанно-готельний комплекс</h3>
-          <div class="contacts--container">
-            <address class="address">
-              <ul class="contacts--list">
-                <li class="contacts--item">
-                  <a class="contacts--label contacts--label__rest" href="#"
-                    >ресторан</a
-                  >
-                  <a class="contacts--tel__rest" href="tel:095 555 95 33">
-                    <svg width="24" height="24">
-                      <use href="./images/icons.svg#phone-regular"></use></svg
-                    >095 555 95 33</a
-                  >
-                </li>
+<section class="contacts--section">
+  <div class="main-container">
+    <div class="container--tablet">
+      <div class="contacts--container">
+        <h1 hidden>Контакти</h1>
+        <h2 class="contacts--title">MIMIHO</h2>
+        <h3 class="contacts--subtitle">Ресторанно-готельний комплекс</h3>
+        <address class="address">
+          <ul class="contacts--list">
+            <li class="contacts--item">
+              <a class="contacts--label contacts--label__rest" href="#"
+                >ресторан</a
+              >
+              <a class="contacts--tel__rest" href="tel:095 555 95 33">
+                <svg class="contacts--icon" width="24" height="24">
+                  <use href="./img/icons.svg#phone-regular"></use></svg
+                >095 555 95 33</a
+              >
+            </li>
 
-                <li class="contacts--item">
-                  <a class="contacts--label contacts--label__hotel" href=""
-                    >готель</a
-                  >
-                  <a
-                    class="contacts--tel"
-                    href="tel:066 849 10 89, tel:067 275 85 40"
-                    ><svg width="24" height="24">
-                      <use href="./images/icons.svg#phone-regular"></use></svg
-                    >066 849 10 89<span class="contacts--tel__second"
-                      >067 275 85 40</span
-                    ></a
-                  >
-                </li>
-                <li class="contacts--item">
-                  <p class="contacts--location">
-                    <svg width="24" height="24">
-                      <use href="./images/icons.svg#location-pin"></use>
-                    </svg>
-                    <span class="location--lable"
-                      >Україна, м. Полтава, вул. Маршала Бірюзова, 15</span
-                    >
-                  </p>
-                </li>
-              </ul>
-            </address>
-            <div class="map--container">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5171.765938248104!2d34.52449296295165!3d49.59995636279737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb948724f7cf0b61!2z0JPQvtGC0L
+            <li class="contacts--item">
+              <a class="contacts--label contacts--label__hotel" href=""
+                >готель</a
+              >
+              <a
+                class="contacts--tel"
+                href="tel:066 849 10 89, tel:067 275 85 40"
+                ><svg class="contacts--icon" width="24" height="24">
+                  <use href="./img/icons.svg#phone-regular"></use></svg
+                >066 849 10 89<span class="contacts--tel__second"
+                  >067 275 85 40</span
+                ></a
+              >
+            </li>
+            <li class="contacts--item">
+              <p class="contacts--location">
+                <svg class="contacts--icon" width="24" height="24">
+                  <use href="./img/icons.svg#location-pin"></use>
+                </svg>
+                <span class="location--lable"
+                  >Україна, м. Полтава, вул. Маршала Бірюзова, 15</span
+                >
+              </p>
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="map--container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5171.765938248104!2d34.52449296295165!3d49.59995636279737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb948724f7cf0b61!2z0JPQvtGC0L
             XQu9GM0L3Qvi3RgNC10YHRgtC-0YDQsNC90L3QuNC5INC60L7QvNC_0LvQtdC60YEgItCc0ZbQvNGW0L3QviI!5e0!3m2!1suk!2sae!4v1676820773821!5m2!1suk!2sae"
-                width="100%"
-                height="100%"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </div>
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
-    </section>
-
-    <footer>
-      <div class="main-container">
-        <div class="footer--container">
-          <a class="logo" href="./">MIMIHO</a>
-          <div class="footer--container__positioned">
-            <nav class="footer-nav">
-              <ul class="footer-nav--list">
-                <li class="footer-nav--item"><a href="№">головна</a></li>
-                <li class="footer-nav--item"><a href="№">ресторан</a></li>
-                <li class="footer-nav--item"><a href="№">Готель</a></li>
-              </ul>
-            </nav>
-            <ul class="network--list">
-              <li class="network--item">
-                <a class="network--link" href="" target="_blank"
-                  ><span class="network--name">telegram</span>
-                  <svg width="24" height="24" class="network--icon">
-                    <use href="/images/icons.svg#telegram"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="network--item">
-                <a class="network--link" href="#" target="_blank"
-                  ><span class="network--name">facebook</span>
-                  <svg width="24" height="24" class="network--icon">
-                    <use href="../../img/icons.svg.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="network--item">
-                <a class="network--link" href="#" target="_blank"
-                  ><span class="network--name">instagram</span>
-                  <svg width="24" height="24" class="network--icon">
-                    <use href="/images/icons.svg#instagram"></use></svg
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+    </div>
+  </div>
+</section>
